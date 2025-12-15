@@ -4,8 +4,8 @@ const uploadedListEl = document.getElementById("uploadedList");
 const submitBtn = document.getElementById("submitBtn");
 
 // Worker URL
-const WORKER_URL =
-  "https://nt-tutor-doc-uploader-6edc59fe5d93.herokuapp.com/upload-ducuments";
+const WORKER_URL = "http://127.0.0.1:8000/upload-ducuments";
+  // "https://nt-tutor-doc-uploader-6edc59fe5d93.herokuapp.com/upload-ducuments";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
